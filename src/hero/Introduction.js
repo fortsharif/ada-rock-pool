@@ -24,14 +24,14 @@ const Introduction = (props) => {
 
             <Typewriter
                 options={{
-                    strings: ['Welcome to ADA Rock Pool', 'Single SPO', '2.5% Donated to Charity!'],
+                    strings: ['Welcome to ADARockPool', 'Small Single Pool Operator', '2.5% Donated to Charity!', 'From the community, For the community', 'Stake ADA, Stake AROCK'],
                     autoStart: true,
                     delay: 50,
                     loop: true
 
                 }} />
         </h1>
-        <p id="text">'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'</p>
+        <h4 id="text">ADARockPool is a mission driven pool. A pool that gives the delegators all the power. We  allow you, the delegators, the power to vote for what charity you think deserves a 2.5% donation for the following month. </h4>
 
     </Container>
 }

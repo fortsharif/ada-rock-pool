@@ -4,13 +4,14 @@ import { AiOutlineDownCircle } from 'react-icons/ai'
 import { IconContext } from "react-icons";
 import { Container, Button } from 'react-bootstrap'
 import './hero.css'
+import gotoAbout from '../utils/utils';
 
 const Scroller = (props) => {
 
 
     return <Container id="scroller">
-        <Button variant="outline-light">About</Button>{' '}
-        <Button variant="outline-light">Delegate</Button>{' '}
+        <Button variant="outline-light" onClick={() => gotoAbout(props)}>About</Button>{' '}
+        <Button variant="light" className="delegate">Delegate</Button>{' '}
     </Container>
 }
 

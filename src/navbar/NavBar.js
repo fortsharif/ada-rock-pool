@@ -7,7 +7,7 @@ const NavBar = (props) => {
 
     return <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-            <Navbar.Brand href="#">ADA Rock Pool</Navbar.Brand>
+            <Navbar.Brand href="/">ADARockPool</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
 
@@ -16,7 +16,7 @@ const NavBar = (props) => {
                     <Nav.Link href="/" >
                         Home
                     </Nav.Link>
-                    <Nav.Link >
+                    <Nav.Link href="about" >
                         About
                     </Nav.Link>
                     <Nav.Link >
