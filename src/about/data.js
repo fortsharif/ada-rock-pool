@@ -15,7 +15,7 @@ const data = [
         }
     },
     {
-        text: '25,000 ADA Delegated!!',
+        text: 'First ADARockPool giveaway',
         date: 'September 2 2021',
         category: {
             tag: 'News',
