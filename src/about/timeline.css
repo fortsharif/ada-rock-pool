@@ -1,8 +1,14 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
 .timeline-container {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin: 40px 0;
+    
+    
 }
 
 .timeline-container::after {
@@ -12,28 +18,56 @@
     left: calc(50% - 2px);
     width: 4px;
     height: 100%;
+    animation: fadeIn 10s;
+  -webkit-animation: fadeIn 10s;
+  -moz-animation: fadeIn 10s;
+  -o-animation: fadeIn 10s;
+  -ms-animation: fadeIn 10s;
+    
 }
 
 
 .description {
     font-size: 20px;
+    margin-top: 20px;
+    color: grey;
     
 }
 
+.scroller {
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 600px;
+  margin-left: -60px;
+}
 
 .center-text {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 20px;
+    animation: slideIn ease-in forwards 2s;
+  -webkit-animation: slideIn 2s;
+  -moz-animation: slideIn 2s;
+  -o-animation: slideIn 2s;
+  -ms-animation: slideIn 2s;
+    
 }
 
-.image {
-    position: relative;
-  
-  left: 50%;
-  
-  margin-left: -100px;
+.center-text1 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    margin-bottom: 20px;
+    animation: slideIn ease-in forwards 2s;
+  -webkit-animation: slideIn 2s;
+  -moz-animation: slideIn 2s;
+  -o-animation: slideIn 2s;
+  -ms-animation: slideIn 2s;
+    
 }
+
+
 
 .timeline-item {
     display: flex;
@@ -42,6 +76,7 @@
     position: relative;
     margin: 10px 0;
     width: 50%;
+    
 }
 
 .timeline-item:nth-child(odd) {
@@ -49,10 +84,11 @@
     justify-content: flex-start;
     padding-left: 30px;
     padding-right: 0;
+    
 }
 
 .timeline-item-content {
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     background-color: #fff;
     display: flex;
@@ -63,6 +99,12 @@
     width: 400px;
     max-width: 70%;
     text-align: right;
+    animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+    
 }
 
 .timeline-item-content::after {
@@ -80,12 +122,14 @@
 .timeline-item:nth-child(odd) .timeline-item-content {
     text-align: left;
     align-items: flex-start;
+    background-color: white;
 }
 
 .timeline-item:nth-child(odd) .timeline-item-content::after {
     right: auto;
     left: -7.5px;
     box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
 }
 
 .timeline-item-content .tag {
@@ -103,12 +147,14 @@
 .timeline-item:nth-child(odd) .timeline-item-content .tag {
     left: auto;
     right: 5px;
+    background-color: white;
 }
 
 .timeline-item-content time {
     color: #777;
     font-size: 12px;
     font-weight: bold;
+    background-color: white;
 }
 
 .timeline-item-content p {
@@ -116,6 +162,7 @@
     line-height: 24px;
     margin: 15px 0;
     max-width: 250px;
+    background-color: white;
 }
 
 .timeline-item-content a {
@@ -175,4 +222,102 @@
     .timeline-item-content a::after {
         display: none;
     }
+}
+
+.Delegate {
+    display: flex;
+justify-content: center;
+margin-left: 46%;
+margin-bottom: 30px;
+}
+
+.center-socials {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.description{
+    
+    animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  
+}
+}
+
+@-moz-keyframes slideIn {
+ 0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+}
+}
+
+@-webkit-keyframes slideIn {
+ 0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  
+}
+}
+
+@-o-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  
+}
+}
+
+@-ms-keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
+  }
+  100% {
+    transform: translateX(0);
+  
+}
 }
