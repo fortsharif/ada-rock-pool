@@ -8,7 +8,7 @@ const DelegateInfo = (props) => {
         <Row xs={1} md={5} className="g-4" >
 
             <Col >
-                <Card>
+                <Card className="card-shadow">
 
                     <Card.Body>
                         <Card.Title>Step 1. </Card.Title>
@@ -21,7 +21,7 @@ const DelegateInfo = (props) => {
             </Col>
 
             <Col>
-                <Card>
+                <Card className="card-shadow">
 
                     <Card.Body>
                         <Card.Title>Step 2.</Card.Title>
@@ -33,7 +33,7 @@ const DelegateInfo = (props) => {
             </Col>
 
             <Col>
-                <Card>
+                <Card className="card-shadow">
 
                     <Card.Body>
                         <Card.Title>Step 3.</Card.Title>
@@ -45,7 +45,7 @@ const DelegateInfo = (props) => {
             </Col>
 
             <Col>
-                <Card>
+                <Card className="card-shadow">
 
                     <Card.Body>
                         <Card.Title>Step 4.</Card.Title>
@@ -57,7 +57,7 @@ const DelegateInfo = (props) => {
             </Col>
 
             <Col>
-                <Card>
+                <Card className="card-shadow">
 
                     <Card.Body>
                         <Card.Title>Step 5.</Card.Title>

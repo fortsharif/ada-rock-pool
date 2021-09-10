@@ -18,11 +18,12 @@
     left: calc(50% - 2px);
     width: 4px;
     height: 100%;
-    animation: fadeIn 10s;
-  -webkit-animation: fadeIn 10s;
-  -moz-animation: fadeIn 10s;
-  -o-animation: fadeIn 10s;
-  -ms-animation: fadeIn 10s;
+    animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  z-index: 1;
     
 }
 
@@ -185,6 +186,11 @@
     width: 20px;
     height: 20px;
     z-index: 100;
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
 }
 
 .timeline-item:nth-child(odd) .timeline-item-content .circle {
