@@ -100,11 +100,7 @@
     width: 400px;
     max-width: 70%;
     text-align: right;
-    animation: fadeIn 4s;
-  -webkit-animation: fadeIn 4s;
-  -moz-animation: fadeIn 4s;
-  -o-animation: fadeIn 4s;
-  -ms-animation: fadeIn 4s;
+    
     
 }
 
@@ -164,6 +160,11 @@
     margin: 15px 0;
     max-width: 250px;
     background-color: white;
+    animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
 }
 
 .timeline-item-content a {
@@ -186,11 +187,7 @@
     width: 20px;
     height: 20px;
     z-index: 100;
-    animation: fadeIn 1s;
-    -webkit-animation: fadeIn 1s;
-  -moz-animation: fadeIn 1s;
-  -o-animation: fadeIn 1s;
-  -ms-animation: fadeIn 1s;
+    
 }
 
 .timeline-item:nth-child(odd) .timeline-item-content .circle {

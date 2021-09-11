@@ -6,6 +6,21 @@ import './delegate.css'
 const Delegate = (props) => {
 
     return <Container>
+        <div
+            style={{
+                backgroundColor: "#080808",
+                position: "absolute",
+                width: "100%",
+                left: "50%",
+                top: "50%",
+                height: "100%",
+                objectFit: "cover",
+                transform: "translate(-50%, -50%)",
+                zIndex: "-1",
+                backgroundSize: 'contain'
+            }}>
+
+        </div>
         <h1 className="title">How do I delegate?</h1>
         <h2 className="title-step">Requirements:</h2>
         <ul className="requirement-list">
