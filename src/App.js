@@ -6,10 +6,13 @@ import Hero from './hero/Hero'
 import About from './about/About'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Delegate from './delegate/Delegate';
+import ScrollToTop from './ScrollToTop';
+
 
 function App() {
   return <Router>
     <Route component={NavBar} />
+    <ScrollToTop />
     <Switch>
       <Route exact path='/' component={Hero} />
       <Route exact path='/About' component={About} />
@@ -17,5 +20,7 @@ function App() {
     </Switch>
   </Router>
 }
+
+
 
 export default App;
