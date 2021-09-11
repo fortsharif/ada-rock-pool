@@ -1,9 +1,9 @@
 export const gotoAbout = (props) => {
-    props.history.push('/#/About')
+    props.history.push('/About')
 }
 
 export const gotoDelegate = (props) => {
-    props.history.push('/#/Delegate')
+    props.history.push('/Delegate')
 }
 
 
