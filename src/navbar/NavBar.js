@@ -6,7 +6,7 @@ import image from './final.png'
 const NavBar = (props) => {
 
 
-    return <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ backgroundColor: "black" }}>
+    return <Navbar collapseOnSelect expand="lg" bg="light" variant="light" style={{ backgroundColor: "black" }}>
         <Container>
             <Navbar.Brand href="/ada-rock-pool/#"><img src={image} width={40} height={35}></img> ADARockPool</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
