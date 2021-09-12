@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ada-rock-pool/static/css/main.6a1a1b17.chunk.css",
-    "main.js": "/ada-rock-pool/static/js/main.cf89a035.chunk.js",
-    "main.js.map": "/ada-rock-pool/static/js/main.cf89a035.chunk.js.map",
+    "main.js": "/ada-rock-pool/static/js/main.42fe68c7.chunk.js",
+    "main.js.map": "/ada-rock-pool/static/js/main.42fe68c7.chunk.js.map",
     "runtime-main.js": "/ada-rock-pool/static/js/runtime-main.54b26853.js",
     "runtime-main.js.map": "/ada-rock-pool/static/js/runtime-main.54b26853.js.map",
     "static/css/2.ea1f8e13.chunk.css": "/ada-rock-pool/static/css/2.ea1f8e13.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.ea1f8e13.chunk.css",
     "static/js/2.3c2e296e.chunk.js",
     "static/css/main.6a1a1b17.chunk.css",
-    "static/js/main.cf89a035.chunk.js"
+    "static/js/main.42fe68c7.chunk.js"
   ]
 }
