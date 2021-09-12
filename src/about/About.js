@@ -6,6 +6,7 @@ import './timeline.css'
 import { AiOutlineTwitter, AiOutlineFacebook } from 'react-icons/ai'
 import { IconContext } from "react-icons";
 import rockBackground from "./rock-background.jpg"
+import { Helmet } from "react-helmet"
 
 const About = (props) => {
 
@@ -45,6 +46,13 @@ const About = (props) => {
         <Button variant="outline-light" className="Delegate" onClick={() => gotoDelegate(props)} >Delegate</Button>{' '}
         <br>
         </br>
+
+        {/* <a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/ADAROCKPOOL?ref_src=twsrc%5Etfw">Tweets by ADAROCKPOOL</a>
+
+        <Helmet>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        </Helmet> */}
 
         <h1 className="center-text1">Contact us on our socials! </h1>
         <div className="center-socials">

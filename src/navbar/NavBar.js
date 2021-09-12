@@ -8,19 +8,19 @@ const NavBar = (props) => {
 
     return <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ backgroundColor: "black" }}>
         <Container>
-            <Navbar.Brand href="/ada-rock-pool/#"><img src={image} width={40} height={35}></img> ADARockPool</Navbar.Brand>
+            <Navbar.Brand href="/#"><img src={image} width={40} height={35}></img> ADARockPool</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
 
                 <Nav className="ms-auto">
 
-                    <Nav.Link href="/ada-rock-pool/#" >
+                    <Nav.Link href="/#" >
                         Home
                     </Nav.Link>
-                    <Nav.Link href="/ada-rock-pool/#/about" >
+                    <Nav.Link href="/#/about" >
                         About
                     </Nav.Link>
-                    <Nav.Link href="/ada-rock-pool/#/delegate">
+                    <Nav.Link href="/#/delegate">
                         Delegate
                     </Nav.Link>
 
