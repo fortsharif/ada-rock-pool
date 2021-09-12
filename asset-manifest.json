@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ada-rock-pool/static/css/main.fcbd884b.chunk.css",
+    "main.css": "/ada-rock-pool/static/css/main.6a1a1b17.chunk.css",
     "main.js": "/ada-rock-pool/static/js/main.edd081ba.chunk.js",
     "main.js.map": "/ada-rock-pool/static/js/main.edd081ba.chunk.js.map",
     "runtime-main.js": "/ada-rock-pool/static/js/runtime-main.5f92ceb0.js",
@@ -12,7 +12,7 @@
     "static/js/3.099dc63a.chunk.js.map": "/ada-rock-pool/static/js/3.099dc63a.chunk.js.map",
     "index.html": "/ada-rock-pool/index.html",
     "static/css/2.ea1f8e13.chunk.css.map": "/ada-rock-pool/static/css/2.ea1f8e13.chunk.css.map",
-    "static/css/main.fcbd884b.chunk.css.map": "/ada-rock-pool/static/css/main.fcbd884b.chunk.css.map",
+    "static/css/main.6a1a1b17.chunk.css.map": "/ada-rock-pool/static/css/main.6a1a1b17.chunk.css.map",
     "static/js/2.64a26713.chunk.js.LICENSE.txt": "/ada-rock-pool/static/js/2.64a26713.chunk.js.LICENSE.txt",
     "static/media/final.b8aa78b4.png": "/ada-rock-pool/static/media/final.b8aa78b4.png",
     "static/media/logo.6ce24c58.svg": "/ada-rock-pool/static/media/logo.6ce24c58.svg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.5f92ceb0.js",
     "static/css/2.ea1f8e13.chunk.css",
     "static/js/2.64a26713.chunk.js",
-    "static/css/main.fcbd884b.chunk.css",
+    "static/css/main.6a1a1b17.chunk.css",
     "static/js/main.edd081ba.chunk.js"
   ]
 }
