@@ -14,6 +14,13 @@ const data = [
             color: '#D4AF37'
         }
     }, {
+        text: 'Upgraded our pool to 1.29.0 Alonzo Node, ready for smart contracts 📝📝 ',
+        date: 'August 30 2021',
+        category: {
+            tag: 'News',
+            color: '#D4AF37'
+        }
+    }, {
         text: '👪Pool hits 20 delegators! ',
         date: 'September 1 2021',
         category: {

@@ -24,7 +24,7 @@ const Introduction = (props) => {
 
             <Typewriter
                 options={{
-                    strings: ['Welcome to ADARockPool', 'Small Single Pool Operator', '2.5% Donated to Charity!', 'From the community, For the community', 'Stake ADA, Stake AROCK'],
+                    strings: ['Welcome to ADARockPool', '2.5% Donated to Charity!', 'From the community, For the community', 'Stake ADA, Stake AROCK'],
                     autoStart: true,
                     delay: 50,
                     loop: true
