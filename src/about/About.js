@@ -1,5 +1,5 @@
 import { withRouter } from "react-router-dom";
-import { Container, Button } from 'react-bootstrap'
+import { Container, Button, Row, Col } from 'react-bootstrap'
 import Timeline from "./Timeline";
 import { gotoDelegate } from "../utils/utils";
 import './timeline.css'
@@ -41,6 +41,12 @@ const About = (props) => {
 
 
         <Timeline />
+
+        <h1 className="center-text">Our Pool</h1>
+        <div className="our-pool">
+            <iframe width="500" height="400" frameborder="0" src="https://js.adapools.org/widget.html?pool=39025777f1d7c42746bc961b03b1690c26db08153d458dc74fcb034b"><a href="https://adapools.org/pool/39025777f1d7c42746bc961b03b1690c26db08153d458dc74fcb034b">Detail</a></iframe>
+        </div>
+
 
         <h1 className="center-text1">Please Consider Delegating, It Would Mean The World To Us 😊</h1>
         <Button variant="outline-light" className="Delegate" onClick={() => gotoDelegate(props)} >Delegate</Button>{' '}
